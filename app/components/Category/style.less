@@ -1,0 +1,39 @@
+@import "../../static/css/variable.less";
+
+.home-category {
+  padding-bottom: 10px;
+  background-color: #fff;
+  .item__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+  .item__list {
+    flex: 0 0 20%;
+    margin-top: 10px;
+    padding-top: 50px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    // background-image: url(https://licong96.github.io/img/react-remark/01%E7%94%B5%E5%BD%B1icon_2.png);
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center top;
+  }
+  .category__dot {
+    width: 100%;
+    text-align: center;
+    .dot {
+      opacity: .5;
+      display: inline-block;
+      margin: 0 4px;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      background-color: @color-primary;
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+}

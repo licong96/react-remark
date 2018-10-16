@@ -1,0 +1,48 @@
+@import "../../../static/css/variable.less";
+
+.public.item {
+  padding: 10px 0;
+  display: flex;
+  .item + .item {
+    border-top: 1px solid #eee;
+  }
+  .item__img {
+    width: 140px;
+  }
+  .item__right {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .item__top,
+  .item__foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .item__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  .item__distance {
+    font-size: 14px;
+    color: #999;
+  }
+  .item__subtitle {
+    padding-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  .item__foot {
+    padding-top: 10px;
+  }
+  .item__price {
+    font-size: 20px;
+    color: #f44336;
+  }
+  .item__mumber {
+    font-size: 16px;
+    color: #999;
+  }
+}

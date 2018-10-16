@@ -1,0 +1,40 @@
+@import "../../static/css/variable.less";
+
+.home-header {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: @color-primary;
+    .header__city-name {
+        margin-right: 4px;
+    }
+    .header__center {
+        position: relative;
+        flex: 1;
+        margin: 10px 15px;
+    }
+    .header__input {
+        border-radius: 30px;
+        padding-left: 30px;
+        padding-right: 10px;
+        width: 100%;
+        height: 30px;
+        border: 0;
+        outline: none;
+    }
+    .icon-search {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: #999;
+    }
+    .header__user {
+        font-size: 18px;
+    }
+}
